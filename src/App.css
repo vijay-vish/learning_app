@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.video-player-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+.custom-progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  position: absolute;
+  bottom: 10px;
+}
+
+.custom-progress-bar span {
+  display: block;
+  height: 100%;
+  background-color: #1e90ff;
+  width: 50%; /* Example: set width based on video progress */
+}
